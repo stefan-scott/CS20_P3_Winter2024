@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>My Second Page</title>
+    </head>
+    <body>
+        <h1>Welcome to the Second Page</h1>   
+        <a href = "index.html">Main Page</a>
+
+        <!-- LISTS,  TABLES,  MEDIA (SOUND, VIDEO, EMBED) -->
+    
+        <!-- LISTS:  UNORDERED -->
+        <h2>Centennial Clubs</h2>
+        <ul>
+            <li>Debate Club</li> 
+            <li>Art Club</li>
+            <li>Sports Teams
+                <ul>
+                    <li>Basketball</li>
+                    <li>Track</li>
+                    <li>Curling</li>
+                </ul>
+            </li>    
+        </ul>
+
+        <!-- ORDERED LIST -->
+        <h2>Summertime Activities</h2>
+        <ol type="i">   <!-- type=""  "1" "A" "a" "I" "i"-->
+            <li>Sailing</li>
+            <li>Hiking/Camping</li>
+            <li>Reading</li>
+        </ol>
+
+        <!-- TABLES  -->
+        <h2>Class Enrolments</h2>
+        <table border="1">
+            <tr>
+                <th>Class Name</th>
+                <th>Number of Students</th>
+            </tr>  
+            <tr>
+                <td>Computer Science</td>
+                <td>180</td>
+            </tr>  
+            <tr>
+                <td>Animation 10</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Science 10</td>
+                <td>375</td>
+            </tr>
+        </table>
+
+        <!-- MEDIA (Sounds, Video, Embed)-->
+        <audio controls>
+            <source src="https://www.cs20.ca/_static/battleThemeA.mp3" type="audio/mpeg">
+            <source src="/assets/battleThemeA.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <video height=300 width=400 controls>
+            <source src="https://www.cs20.ca/_static/run-cycle.mp4" type="video/mp4">
+            <source src="/assets/run-cycle.ogg" type="video/ogg">
+            Your browser does not support the video element.
+        </video>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gZQEOjyjwhc?si=MM1QzaGuBl05QVV7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- TO DO -->
+        <!-- Pick some other media side (snapchat, twitch, etc..)-->
+        <!-- Try to embed in your site. -->
+
+
+    </body>
+</html>

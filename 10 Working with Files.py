@@ -17,7 +17,6 @@ lines = my_file.readlines()
 for i in range(len(lines)):  #i: 0  1  2
     lines[i] = lines[i].rstrip("\n")
 
-
 print(f"""A poem:
 {lines[0]}
 {lines[1]}
